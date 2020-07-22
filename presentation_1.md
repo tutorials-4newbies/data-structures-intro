@@ -16,7 +16,8 @@ class: center, middle
 
 # List
 
-A python **list** is a mutable, ordered sequence of items. As such, it can be indexed, sliced, and changed. Each element can be accessed using its position in the list. ments. Each element or value that is inside of a list is called an **item**
+A python **list** is a mutable, ordered sequence of items. As such, it can be indexed, sliced, and changed.
+ Each element can be accessed using its position in the list. Each element or value that is inside of a list is called an **item**
 
 
 ---
@@ -206,7 +207,10 @@ def square(num):
 square_nums = [square(x) for x in nums]
 print(square_nums)
 [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
-
+# This also works
+square_nums = [x*x for x in nums if x % 2 == 0]
+print(square_nums)
+[0, 4, 16, 36, 64]
 ```
 
 ---
