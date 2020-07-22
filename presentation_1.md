@@ -226,7 +226,7 @@ For the reader - learn about filtering and mapping dict comprehensions
 * [Beginners - how to code in python](https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python) 
 * [Read more about lists](https://www.geeksforgeeks.org/python-list/)
 * [Read more about dicts](https://www.geeksforgeeks.org/python-dictionary/)
-
+* [Python docs data structures tutorial](https://docs.python.org/3/tutorial/datastructures.html)
 ---
 
 # Homework
