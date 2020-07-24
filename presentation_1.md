@@ -105,7 +105,7 @@ we must refer to it by using its key,
 
 ```python
 #with the dict literal {}
-my_dict = {"name":"alon",answer:42}
+my_dict = {"name":"alon","answer":42}
 # Is the same as using the dict constructor
 another_dict = dict(name='alon',answer=42)
 
